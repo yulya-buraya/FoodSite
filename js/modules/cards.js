@@ -11,7 +11,7 @@ function cards() {
       ...classes
     ) {
       this.src = src;
-      this.alt = alt;
+      this.alt = alt; 
       this.title = title;
       this.description = description;
       this.parent = document.querySelector(parenSelector);

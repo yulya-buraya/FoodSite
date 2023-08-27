@@ -8,7 +8,20 @@
   },
   "author": "",
   "license": "ISC",
+  "browserslist": [
+    "> 1%"
+  ],
   "devDependencies": {
+    "@babel/cli": "^7.22.10",
+    "@babel/core": "^7.22.11",
+    "@babel/preset-env": "^7.22.10",
+    "babel-loader": "^9.1.3",
+    "core-js": "^3.32.1",
     "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "es6-promise": "^4.2.8",
+    "nodelist-foreach-polyfill": "^1.2.0"
   }
 }
